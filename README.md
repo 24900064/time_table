@@ -135,8 +135,13 @@ Execute the program using runserver command.
 </html>
 ~~~
 # OUTPUT
-![Screenshot 2024-12-04 130827](https://github.com/user-attachments/assets/5abe8fb7-c614-4192-9f72-77dc8f361ea7)
-![Screenshot 2024-12-04 130854](https://github.com/user-attachments/assets/efec81d7-c206-4a6c-adf3-07e1ca8ebdd3)
+
+![Screenshot 2024-12-07 111202](https://github.com/user-attachments/assets/06fbd391-78ff-4fe1-895f-4995fe02657c)
+
+
+![Screenshot 2024-12-07 111542](https://github.com/user-attachments/assets/2f78e6fb-9ee6-4f7a-b471-ce304de263ff)
+![Screenshot 2024-12-07 111656](https://github.com/user-attachments/assets/5f69f9da-254b-4c23-a81a-e58efbc4ec24)
+
 
 
 # RESULT
