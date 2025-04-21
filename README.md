@@ -25,122 +25,107 @@ Execute the program using runserver command.
 # PROGRAM
 ~~~
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIME TABLE</title>
-    <style>
-        table,th,td{
-            border: 5px black;
-            border-style: groove;
-            border-collapse:collapse;
-            text-size-adjust: 10px;
-            margin: auto;}
-            th{
-                background-color: yellow;
-            }
-            td{
-                background-color: #399be2;
-                padding: 10px;
-                font-size: 20px;
-            }
-    </style>
+    <title>SLOT TIME TABLE (EVEN SEM)</title>
 </head>
 <body>
-    <table style="text-align: center;">
-        {% load static %}
-        <h1><img src="{% static 'logo.png'%}"></h1>
-    <h2 style="text-align: center;">SLOT TIME TABLE-NAVEEN KUMAR E(24006129)</h2>
-    <tr style="text-align: center;">
-        <th>DAY/TIMINGS</th>
-        <th><br>MONDAY</th>
-        <th><br>TUESDAY</th>
-        <th><br>WEDNESDAY</th>
-        <th><br>THURSDAY</th>
-        <th><br>FRIDAY</th>
-        <th><br>SATURDAY</th>
-    </tr>
-    <tr style="text-align: center;">
-        <th>8-10</th>
-        <td colspan="6">FREE TIME</td>
-        </tr>
-        <tr style="text-align: center;">
-            <th>10-12</th>
-            <td>COMMUNICATIVE ENGLISH</td>
-            <td>DIGITAL ELECTRONICS</td>
-            <td>FUNDAMENTALS OF C</td>
-            <td>PROBABLITY AND QUEING MODEL</td>
-            <td>WEB APPLICATION</td>
-            <td>WEB APPLICATION</td>
-        </tr>
-        <tr style="text-align: center;">
-            <th>12-1</th>
-            <td colspan="6">LUNCH</td>
-        </tr>
-        <tr style="text-align: center;">
-            <th>1-3</th>
-            <td>WEB APPLICATION</td>
-            <td>COMMUNICATIVE ENGLISH</td>
-            <td>MENTOR MEETING</td>
-            <td>FUNDAMENTALS OF C</td>
-            <td>DIGITAL ELECTRONICS</td>
-            <td>PROBABLITY AND QUEING MODEL</td>
+    <br>
+    <h2 style="text-align: center;">SLOT TIME TABLE - PRAGATHEESHRAJ D (212224230199)</h2>
+
+    <table border="5" width="570" align="center">
+        <tr>
+            <th bgcolor="WHITE">Day/Time</th>
+            <th bgcolor="WHITE">Monday</th>
+            <th bgcolor="WHITE">Tuesday</th>
+            <th bgcolor="WHITE">Wednesday</th>
+            <th bgcolor="WHITE">Thursday</th>
+            <th bgcolor="WHITE">Friday</th>
         </tr>
         <tr>
-            <th>3-5</th>
-            <td colspan="6">FREE TIME</td>
+            <th bgcolor="NAVY">8-10</th>
+            <td bgcolor="PINK">INTRO OF ML</td>
+            <td bgcolor="WHITE">FREE SLOT</td>
+            <td bgcolor="PINK">FWAD</td>
+            <td bgcolor="WHITE">FREE SLOT</td>
+            <td bgcolor="SILVER">PRINCIPAL OF CHEMISTRY</td>
+        </tr>
+        <tr>
+            <th bgcolor="NAVY">10-12</th>
+            <td bgcolor="PINK">COMMUNICATIVE ENGLISH</td>
+            <td bgcolor="olive">FWAD</td>
+            <td bgcolor="SILVER">COMMUNICATIVE ENGLISH</td>
+            <td bgcolor="WHITE">FREE SLOT</td>
+            <td bgcolor="WHITE">FREE SLOT</td>
+        </tr>
+        <tr>
+            <th bgcolor="NAVY">12-1</th>
+            <td colspan="5" align="center" bgcolor="CREAM">LUNCH</td>
+        </tr>
+        <tr>
+            <th bgcolor="NAVY">1-3</th>
+            <td bgcolor="olive">FWAD</td>
+            <td bgcolor="TEAL">INTRO OF ML</td>
+            <td bgcolor="SILVER">COMPUTER NETWORK</td>
+            <td bgcolor="SILVER">COMMUNICATIVE ENGLISH</td>
+            <td bgcolor="PINK">COMPUTER NETWORK</td>
+        </tr>
+        <tr>
+            <th bgcolor="NAVY">3-5</th>
+            <td bgcolor="WHITE">FREE SLOT</td>
+            <td bgcolor="WHITE">FREE SLOT</td>
+            <td bgcolor="olive">FWAD</td>
+            <td bgcolor="PINK">PY</td>
+            <td bgcolor="WHITE">FREE SLOT</td>
         </tr>
     </table>
-    <table style="text-align: center;">
-        <tr style="text-align: center;">
-            <th> S.NO</th>
-            <th>SUBJECT CODE</th>
-            <th>SUBJECT NAME</th>
+
+    <br>
+
+    <table border="5" width="570" align="center">
+        <tr>
+            <td>S.NO.</td>
+            <td>Subject Code</td>
+            <td>Subject Name</td>
         </tr>
-        <tr style="text-align: center;">
-            <td>1</td>
+        <tr>
+            <td>1.</td>
             <td>19AI414</td>
-            <td>FUNDAMENTALS OF WEB APPLICATION</td>
+            <td>Fundamentals of Web Application Development (FWAD)</td>
         </tr>
-        <tr style="text-align: center;">
-            <td>2</td>
-            <td>19AI304</td>
-            <td>FUNDAMENTALS OF C PROGRAMMING</td>
-        </tr>
-        <tr style="text-align: center;">
-            <td>3</td>
-            <td>19EE404</td>
-            <td>DIGITAL ELECTRONICS</td>
-        </tr>
-        <tr style="text-align: center;">
-            <td>4</td>
+        <tr>
+            <td>2.</td>
             <td>19EN101</td>
-            <td>COMMUNICATIVE ENGLISH</td>
+            <td>Communicative English</td>
         </tr>
-        <tr style="text-align: center;">
-            <td>5</td>
-            <td>19MA222</td>
-            <td>PROBABLITY AND QUEUEING MODEL</td>
+        <tr>
+            <td>3.</td>
+            <td>19AI301</td>
+            <td>Python Programming</td>
         </tr>
-        <tr style="text-align: center;">
-            <td>6</td>;
-            <td>ECA-M-SCOFT</td>
-            <td>MENTOR MEETING</td>
+        <tr>
+            <td>4.</td>
+            <td>19CY205</td>
+            <td>Principles of Chemistry in Engineering</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>19CS406</td>
+            <td>Computer Network</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>19AI410</td>
+            <td>Intro Of ML</td>
         </tr>
     </table>
-    
-    
 </body>
 </html>
+
 ~~~
 # OUTPUT
 
-![Screenshot 2024-12-07 111202](https://github.com/user-attachments/assets/06fbd391-78ff-4fe1-895f-4995fe02657c)
-
-
-![Screenshot 2024-12-07 111542](https://github.com/user-attachments/assets/2f78e6fb-9ee6-4f7a-b471-ce304de263ff)
-![Screenshot 2024-12-07 111656](https://github.com/user-attachments/assets/5f69f9da-254b-4c23-a81a-e58efbc4ec24)
+![Screenshot 2025-04-21 144853](https://github.com/user-attachments/assets/4401d759-2c07-41f6-b4d8-02d0de0fb2a4)
 
 
 
